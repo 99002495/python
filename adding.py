@@ -1,6 +1,8 @@
 
 def add(a, b):
     if a > 0 and b > 0:
+        x=input()
+        print(x)
         return a + b
     else:
         return None
