@@ -13,3 +13,6 @@ def test_invalid_add():
 def test_invalid_add_exception():
     with pytest.raises(ValueError):
         assert add_with_exception(-5, 5)
+if __name__ == '__main__':
+    test_simple_add()
+    
