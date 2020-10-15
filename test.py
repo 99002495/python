@@ -3,7 +3,7 @@ import pytest
 from adding import add, add_with_exception
 
 def test_simple_add():
-    assert add(1, 2) == 3
+    assert add(1, 2) == 5
     assert add(1, 1) == 2
     assert add(105, 321) == 426
 
