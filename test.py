@@ -1,4 +1,5 @@
 import pytest
+import socket
 
 from adding import add, add_with_exception
 
