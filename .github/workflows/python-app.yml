@@ -33,4 +33,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        gitinspector.py --format=html -r -m --file-types="cs,js,asax,ascx,asmx,aspx,cshtml,fs" | Out-File C:\git_output.html
+        gitinspector.py --format=html -r -m --file-types="cs,js,asax,ascx,asmx,aspx,cshtml,fs" | Out-File git_output.html
